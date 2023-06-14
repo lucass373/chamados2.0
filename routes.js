@@ -18,7 +18,7 @@ const Routes = () => {
       <AppStack.Navigator screenOptions={{headerShown: true,  animationEnabled: true}}>
         {/*** Indicando as telas das aplicação e definindo nomes para elas ***/}
         {/*** A primeira que é indicada torna-se a inicial ***/}
-        <AppStack.Screen name="Home" component={Home} options={}/>       
+        <AppStack.Screen name="Home" component={Home} options={{ headerShown:false }}/>       
       </AppStack.Navigator>
     </NavigationContainer>
   );
